@@ -102,3 +102,30 @@ footer {
     transform: scale(1.05);
     color: #fff;
 }
+
+.apply-top-inline {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0 30px;
+    padding-right: 10px;
+}
+
+.btn-apply-inline {
+    background-color: #00e6e6;
+    color: #000;
+    padding: 16px 28px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 6px;
+    text-decoration: none;
+    box-shadow: 0 0 12px rgba(0,230,230,0.5);
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-apply-inline:hover {
+    background-color: #00bfbf;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+
